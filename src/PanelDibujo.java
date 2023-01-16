@@ -14,10 +14,15 @@ public class PanelDibujo extends JPanel{
         int altura = getHeight(); // altura total
 
         // dibuja una línea de la esquina superior izquierda a la esquina inferior derecha
-        g.drawLine(150,100,anchura,altura);
+        g.drawLine(20,20,50,100);
+        g.drawLine(50,100,80,50);
+        g.drawLine(80,50,115,100);
+        g.drawLine(115,100,140,-100);
 
         // dibuja una línea de la esquina inferior izquierda a la esquina superior derecha
-        g.drawLine(10,altura,anchura,20);
+        //g.drawLine(61,15,10,25);
+// g.drawLine(300,400,200,100);
+
     }// fin del método paintComponent
 
 }// fin de la clase PanelDibujo
